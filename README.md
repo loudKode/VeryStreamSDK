@@ -27,11 +27,6 @@
 
 
 # Example:
-**get token**
-```vb
-Dim tkn = Await VirusTotalSDK.GetToken.GetToken("user", "pass")
-```
-
 **set client**
 ```vb
 Dim cLENT As VeryStreamSDK.IClient = New VeryStreamSDK.VClient("xxxx", "xxxx")
